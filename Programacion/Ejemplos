@@ -1,0 +1,8 @@
+#2 maneras de trabajar
+var_numero=5.5
+var_num=12
+var_texto="hola"
+#trabajar con 3 variables
+
+#formato 1.- poner texto entre comillas separado por comas
+print(var_texto,"alumno")

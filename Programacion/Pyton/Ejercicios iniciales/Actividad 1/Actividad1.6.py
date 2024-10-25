@@ -1,0 +1,6 @@
+var1=input("Dame una palabra: ")
+var2=input("Dame otra palabra: ")
+var3=input("Dame otra palabra: ")
+var4=input("Dame otra palabra: ")
+var5=input("Dame una ultima palabra: ")
+print(var5,",",var4,",",var3,",",var2,",",var1)    

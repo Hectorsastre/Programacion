@@ -1,6 +1,0 @@
-var1=input("Dame una palabra: ")
-var2=input("Dame otra palabra: ")
-var3=input("Dame otra palabra: ")
-var4=input("Dame otra palabra: ")
-var5=input("Dame una ultima palabra: ")
-print(var1,",",var2,",",var3,",",var4,",",var5)    

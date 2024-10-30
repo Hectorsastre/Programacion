@@ -8,5 +8,5 @@ else:
     elif str.islower (letra):
         print(f"La letra {letra} es minuscula")
     else:
-        print("¿Que es eso?")
+        print("Que es eso?")
     

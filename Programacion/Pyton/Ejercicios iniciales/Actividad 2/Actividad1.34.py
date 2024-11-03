@@ -1,3 +1,4 @@
+#34. Corrige los 4 errores o añade el código que necesites para que el siguiente programa se ejecute correctamente
 #inicializo valores a cada variable
 var_numero=6734
 var_suma=0

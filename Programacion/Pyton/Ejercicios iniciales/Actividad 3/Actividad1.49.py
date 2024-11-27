@@ -3,11 +3,9 @@ palabra_secreta=input("Introduce la palabra secreta: ")
 longitud=len(palabra_secreta)
 intentos=longitud
 contador=0
+letra=input(f"Introduce una letra: ")
 for i in range(longitud):
-    letra=input(f"Introduce una letra (intento {i+1}/{intentos}): ")
-    if letra in palabra_secreta:
-        print(f"la letra existe en la posición: {contador+1}")
-    else:
-        print("la letra no existe")
-    contador=+1
+    if letra ==palabra_secreta[i]:
+        print(f"la letra existe en la posición: {i+1}")
+    contador+=1
 print(f"La palabra secreta era: {palabra_secreta}")

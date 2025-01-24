@@ -52,18 +52,18 @@ while chivato==0:
     acumulado+=resultado
     veces+=1
     repeticion=input("¿Quieres otro pedido? (s/n)")
-    if repeticion==n:
+    if repeticion=="n":
         chivato+=1
-    else:
-acumulado_iva= acumulado + (acumulado*0.10)
-print("""RESUMEN
+        
+acumulado_iva= acumulado+acumulado/10
+print(f"""RESUMEN
 Número de pedidos: {veces}
 Total a pagar: {acumulado}
 Total con iva: {acumulado_iva}""")
 if acumulado>10 and acumulado<20:
-    acumulado_final=acumulado_iva-acumulado_iva*5
-    print("Precio total con descuento del 5%: {acumulado_final}")
+    acumulado_final=acumulado_iva-acumulado_iva*0.05
+    print(f"Precio total con descuento del 5%: {acumulado_final}")
 if acumulado>30:
-    acumulado_final=acumulado_iva-acumulado_iva*15
-    print("Precio total con descuento del 15%: {acumulado_final}")
+    acumulado_final=acumulado_iva-acumulado_iva*0.15
+    print(f"Precio total con descuento del 15%: {acumulado_final}")
 

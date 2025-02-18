@@ -5,20 +5,7 @@
 39. Programa que pida n números y que, tras introducir el último número, debe aparecer por pantalla el número total de positivos, negativos y número de 0.
 40. Crea un programa que cuente todos los números pares hasta el número 50
 41. Imprime el siguiente patrón utilizando for:
-54321
-4321
-321
-21
-1
 42. Imprima el siguiente patrón con el ciclo for. 
-*
-**
-***
-****
-*****
-***
-**
-*
 43. Realiza un programa que recorra con un for una palabra introducida por teclado y se imprima por pantalla cada letra
 44. Realiza un programa que recorra todos los números comprendidos de 0 a 100 realizando saltos de 3 en 3. El resultado debe aparecer por pantalla en una línea con los números separados por ‘,’
 45. Realiza un programa que permita introducir una palabra por teclado y puedas recorrer el stringdistinguiendo vocales y las consonantes:

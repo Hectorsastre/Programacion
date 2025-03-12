@@ -109,7 +109,7 @@ La BANCA tiene {puntos_b} puntos acumulados
         print("La BANCA perdido la partida!")
         input("Presione ENTER para continuar")
         puntos_b-=10
-    if not acumulado<acumulado_b and not acumulado>=7.5:
+    if not acumulado<acumulado_b and acumulado<=7.5:
         print(f"""Has ganado a la BANCA {alias}!
               """)
     if acumulado>=8 and acumulado_b>=8:

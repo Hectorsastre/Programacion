@@ -66,6 +66,7 @@ La BANCA tiene {puntos_b} puntos acumulados
                 print(f"El acumulado de la BANCA es de {acumulado_b} puntos")
                 print("""Se ha acabado la partida
                       """)
+                input("Presione ENTER para continuar")
                 continuar_b+=1#para el while
             else:
                 print(f"""BANCA,tu acumulado de puntos es de {acumulado_b} puntos, por ahora
@@ -76,6 +77,7 @@ La BANCA tiene {puntos_b} puntos acumulados
             print("""La BANCA se planta
 - ------------------------ -
 """)
+            input("Presione ENTER para continuar")
             continuar_b+=1
     print(f"El acumulado de la BANCA es de {acumulado_b} puntos")
     print(f"Tu acumulado era de {acumulado} puntos")
@@ -109,7 +111,7 @@ La BANCA tiene {puntos_b} puntos acumulados
         print("La BANCA perdido la partida!")
         input("Presione ENTER para continuar")
         puntos_b-=10
-    if not acumulado<acumulado_b and acumulado<=7.5:
+    if acumulado>acumulado_b and acumulado<=7.5:
         print(f"""Has ganado a la BANCA {alias}!
               """)
     if acumulado>=8 and acumulado_b>=8:
